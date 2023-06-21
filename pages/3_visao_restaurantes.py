@@ -112,7 +112,7 @@ def tempo_traf_graf (df):
 #-----------Iniciando a estrutura lógica------------------------------#
 
 # Importando o dataframe "train.csv"
-df = pd.read_csv ('train.csv')
+df = pd.read_csv ('datasets/train.csv')
 
 # Limpando o dataframe
 

@@ -73,7 +73,7 @@ def top_entreg_cid (df, top_asc):
 #-----------Iniciando a estrutura lógica------------------------------#
 
 # Importando o dataframe "train.csv"
-df = pd.read_csv ('train.csv')
+df = pd.read_csv ('datasets/train.csv')
 
 # Limpando o dataframe
 
