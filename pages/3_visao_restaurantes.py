@@ -135,7 +135,7 @@ st.sidebar.markdown ('--------')
 
 # Criação dos filtros (inputs do usuário)
 
-date = st.sidebar.slider ('Selecione uma data limite', value=datetime (2022, 4, 13 ), min_value=datetime (2022, 2, 11 ), max_value=pd.datetime (2022, 4, 6 ), format='DD-MM-YYYY' )
+date = st.sidebar.slider ('Selecione uma data limite', value=datetime (2022, 4, 13 ), min_value=datetime (2022, 2, 11 ), max_value=datetime (2022, 4, 6 ), format='DD-MM-YYYY' )
 
 trafic = st.sidebar.multiselect ('Selecione uma condição de trânsito',['Low', 'Medium', 'High', 'Jam'], default = ['Low', 'Medium', 'High', 'Jam'] )
 
